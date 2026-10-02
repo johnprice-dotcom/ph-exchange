@@ -17,11 +17,11 @@ function Header() {
             />
 
             <nav className={`nav-links ${menuOpen ? "mobile-open" : ""}`}>
-                <a href="" class>Home</a>
-                <a href="">About</a>
-                <a href="">Rates</a>
-                <a href="">FAQs</a>
-                <a href="">Contacts</a>
+                <a href="/home" class>Home</a>
+                <a href="/about">About</a>
+                <a href="/rates">Rates</a>
+                <a href="/faq">FAQs</a>
+                <a href="/contact">Contacts</a>
 
                 <div className="mobile-buttons">
                     <button className="button-1">Log In</button>
