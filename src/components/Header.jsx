@@ -17,7 +17,7 @@ function Header() {
             />
 
             <nav className={`nav-links ${menuOpen ? "mobile-open" : ""}`}>
-                <a href="/home">Homes</a>
+                <a href="/home">Home</a>
                 <a href="/about">About</a>
                 <a href="/rates">Rates</a>
                 <a href="/faq">FAQs</a>
