@@ -1,0 +1,135 @@
+.services-container {
+    display: flex;
+    padding: 70px 7%;
+    justify-content: space-between;
+}
+
+.our-services span {
+    font-size: 20px;
+    color: #337af7;
+}
+
+.our-services h1 {
+    font-size: 40px;
+    color: #000;
+    width: 300px;
+}
+
+.our-services p {
+    font-size: 20px;
+    color: #7b8a9e;
+    width: 500px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.services {
+    background: #f2f8fd;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.service-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    background: #e2effd;
+}
+
+.service-icon-container svg {
+    font-size: 23px;
+    color: #004afc;
+}
+
+.services h4 {
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.services p {
+    font-size: 18px;
+    width: 300px;
+    color: #777;
+}
+
+@media (max-width: 768px) {
+    .services-container {
+        width: 100%;
+        flex-direction: column;
+        padding: 30px 20px;
+        box-sizing: border-box;
+    }
+}
+
+.our-services {
+    width: 100%;
+    min-width: 0;
+}
+
+.our-services span {
+    font-size: 16px;
+}
+
+.our-services h1 {
+    width: 100%;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.our-services p {
+    width: 100%;
+    max-width: 100%;
+    font-size: 13px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+}
+
+.services-grid {
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 5px;
+    box-sizing: border-box;
+}
+
+.services {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.services h4 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 13px;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+}
+
+.services p {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    font-size: 12px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+}
+
+.service-icon-container {
+    width: 30px;
+    height: 30px;
+}
+
+.service-icon-container svg {
+    font-size: 16px;
+}

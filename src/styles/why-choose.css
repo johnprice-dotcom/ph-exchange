@@ -1,0 +1,131 @@
+.why-choose-us-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 70px 7%;
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.image-container img{
+    width: 400px;
+}
+
+.image-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Each row */
+.list-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Icon styling */
+.list-container svg {
+  font-size: 24px;
+  color: #2563eb; /* blue color */
+  background: #eef2ff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* Text wrapper */
+.list-text h4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.list-text p {
+  margin: 3px 0 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.why-choose-container span{
+    color: #337af7;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.why-choose-container h1{
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+    width: 350px;
+}
+
+.why-choose-container p{
+    color: #7b8a9e;
+    width: 500px;
+}
+
+.why-choose-container button{
+    background: #005cfc;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+@media(max-width:768px) {
+.why-choose-us-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: -80px;
+}
+
+.image-container img{
+    width: 200px;
+}
+
+.why-choose-container span{
+    color: #337af7;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.why-choose-container{
+  padding: 15px;
+}
+
+.why-choose-container h1{
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.why-choose-container p{
+    color: #7b8a9e;
+    font-size: 13px;
+    width: 360px;
+}
+
+.why-choose-container button{
+    width: 120px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+}
